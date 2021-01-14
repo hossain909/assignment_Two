@@ -1,6 +1,6 @@
 :root{
-  --text-primary: #fd7e14;
-  --text-seconday: #444;
+  --text-primary: #f07008;
+  --seconday-text: #444;
 
   --header-bg: #f5eee9f3;
 
@@ -17,8 +17,8 @@ header,nav {
 h1,h2,h3,h5,h6{
   font-family: 'Bebas Neue', cursive;
 }
-h1{
-  color: var(--text-seconday);
+h1,h3{
+  color: var(--seconday-text);
 }
 h1 span{
   color: var(--text-primary);
