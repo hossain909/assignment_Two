@@ -1,0 +1,31 @@
+:root{
+  --text-primary: #fd7e14;
+  --text-seconday: #444;
+
+  --header-bg: #f5eee9f3;
+
+  /* --blue-button: #0D6EFD; */
+   --blue-button:  rgba(6, 46, 224, 0.918) ;
+}
+
+html,body{
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+header,nav {
+  background-color: var(--header-bg);
+}
+h1,h2,h3,h5,h6{
+  font-family: 'Bebas Neue', cursive;
+}
+h1{
+  color: var(--text-seconday);
+}
+h1 span{
+  color: var(--text-primary);
+}
+.blue-button {
+  background-color: var(--blue-button);
+}
+.orange-text{
+  color: var(--text-primary);
+}
