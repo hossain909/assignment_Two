@@ -1,6 +1,6 @@
 :root{
   --text-primary: #f07008;
-  --seconday-text: #444;
+  --secondary-text: #444;
 
   --header-bg: #f5eee9f3;
 
@@ -9,13 +9,16 @@
 }
 
 html,body{
-  font-family: 'Roboto Condensed', sans-serif; 
+  /* font-family: 'Roboto Condensed', sans-serif;  */
+  font-family: Arial, Helvetica, sans-serif;
 }
 header,nav {
   background-color: var(--header-bg);
 }
 h1,h2,h3,h5,h6{
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 h1,h3{
   color: var(--seconday-text);

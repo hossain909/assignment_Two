@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Fashion</title>
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Boostrap CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Mins Css File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand fw-bolder fs-1" href="index.html"><img class="w-25" src="logo_icon/logo.png" alt=""><span class="orange-text">NIKE</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active px-lg-4" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-4" href="#casual_shoe">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-4" href="#about_us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-4" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!--  Casual Shoes  -->
+<main class="bg-light">
+  <section id="cart" class="py-5">
+    <div class="container">
+        <h5>Shopping Cart</h5>
+        <!-- SHOPPUNG CART ITEMS -->
+        <div class="row">
+            <div class="col-sm-9 border-top py-5">
+                <!-- cart items -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="./asset/img/products/1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h6>Samsung Galaxy10</h6>
+                        <small>by Samsung</small>
+                        <!-- product rating -->
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size12">
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star-o"></i></span>
+                            </div>
+                            <a class="font-size14 px-2 font-dosis" href="#">20,00 ratings</a>
+                        </div>
+                        <!-- end product rating -->
+                        <!-- start qty -->
+                        <div class="qty d-flex pt-2">
+                            <div class="d-flex font-dosis">
+                                <button class="qty-up border bg-light" data-id="pro1"><i class="fa fa-angle-up"></i></button>
+                                <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                <button data-id="pro1" class="qty-down border bg-light"><i class="fa fa-angle-down"></i></button>
+                            </div>
+                            <button type="submit" class="btn font-dosis text-danger px-3 border-right">Delete</button>
+                            <button type="submit" class="btn font-dosis text-info">Save for Later</button>
+                        </div>
+                        <!-- end start qty -->
+                    </div>
+                    <!-- product price -->
+                    <div class="col-sm-2 text-right">
+                        <div class="font-size16 font-dosis text-danger">
+                            $<span class="product-price">152.00</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="sub-total border text-center font-dosis px-2">
+                    <h6 class="font-dosis text-primary py-3 font-size14"><i class="fa fa-check"></i>Your order is eligible to FREE delivery!</h6>
+                    <div class="border-top py-3">
+                        <h5 class="font-dosis font-size18">Subtotal (2 item):&nbsp;&nbsp;<span class="text-danger">$<span><span id="deal-price">152.00</span></h5>
+                        <button type="submit" class="btn btn-warning border mt-2 font-size14">Proceed to Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9 border-top py-5">
+                <!-- cart items -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="./asset/img/products/13.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h6>Iphone10</h6>
+                        <small>by Apple</small>
+                        <!-- product rating -->
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size12">
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star"></i></span>
+                                <span><i class="fa fa-star-o"></i></span>
+                            </div>
+                            <a class="font-size14 px-2 font-dosis" href="#">20,000 ratings</a>
+                        </div>
+                        <!-- end product rating
+                        start qty -->
+                        <div class="qty d-flex pt-2">
+                            <div class="d-flex font-dosis">
+                                <button class="qty-up border bg-light" data-id="pro1" ><i class="fa fa-angle-up"></i></button>
+                                <input type="text" data-id="pro1"  class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                <button data-id="pro1" class="qty-down border bg-light"><i class="fa fa-angle-down"></i></button>
+                            </div>
+                            <button type="submit" class="btn font-dosis text-danger px-3 border-right">Delete</button>
+                            <button type="submit" class="btn font-dosis text-info">Save for Later</button>
+                        </div>
+                    
+                        <!-- end start qty -->
+                    </div>
+                    <!-- product price -->
+                    <div class="col-sm-2 text-right">
+                        <div class="font-size16 font-dosis text-danger">
+                            $<span class="product-price">799.00</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<!-- Footer -->
+<footer>
+  <section id="copyright" class=" text-light bg-success bg-gradient text-center py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead mb-0">Copyright &copy; 2021 <img class="ms-1 text-white" style="width: 35px; " src="logo_icon/logo.png" alt=""><span class=" fw-bold"> Nike</span></p>
+            </div>
+        </div>
+    </div>
+  </section>
+</footer>
+   
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/7306fa7d61.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
